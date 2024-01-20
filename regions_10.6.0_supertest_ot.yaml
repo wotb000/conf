@@ -3341,10 +3341,6 @@ Regions:
                 clusterID: 2
                 url: "ed-c9-149-3-76.fe.core.pw:20017"
                 login: "wotblitzstb3"
-        isVisibleOnMap : true
-        layoutPosition:
-            x: 0.4
-            y: 0.6
     ATServerPerf:
         realm: "eu"
         flag: "eu"
@@ -3352,6 +3348,10 @@ Regions:
             ATServerPerf:
                 url: "ed-sl-a53.fe.core.pw:20011"
                 login: "wotblitzatserverperf"
+        isVisibleOnMap : true
+        layoutPosition:
+            x: 0.4
+            y: 0.6
     sseblitz01:
         realm: "eu"
         flag: "eu"
