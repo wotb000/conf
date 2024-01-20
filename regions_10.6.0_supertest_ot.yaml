@@ -135,6 +135,7 @@ Regions:
         ironSourceAppKey:
             iOS: "c954cf05"
             Android: "c954957d"
+        battlePassOffersStorage: "http://dl-wotblitz-gc.wargaming.net/bp_offers/"
         isImageCacheEnabled: false
         isVisibleOnMap : true
         layoutPosition:
@@ -1544,6 +1545,10 @@ Regions:
         ironSourceAppKey:
             iOS: "c8fcb6c5"
             Android: "c8fb240d"
+        isVisibleOnMap : true
+        layoutPosition:
+            x: 0.2
+            y: 0.2
     WebStable_playtest:
         wgnwn: "https://wgs13.wgtest.net"
         clientId: "HeAllbdCpUZ31rClTJSNOmLX88zA6eERisRoACwx"
@@ -1611,6 +1616,10 @@ Regions:
         ironSourceAppKey:
             iOS: "c8fcb6c5"
             Android: "c8fb240d"
+        isVisibleOnMap : true
+        layoutPosition:
+            x: 0.66
+            y: 0.66
     WebStable_outsource:
         wgnwn: "https://wgs13.wgtest.net"
         clientId: "HeAllbdCpUZ31rClTJSNOmLX88zA6eERisRoACwx"
@@ -1673,6 +1682,10 @@ Regions:
         ironSourceAppKey:
             iOS: "c8fcb6c5"
             Android: "c8fb240d"
+        isVisibleOnMap : true
+        layoutPosition:
+            x: 0.1
+            y: 0.11
     WebStable_Ext_GGM:
         wgnwn: "https://wgs13.wgtest.net"
         clientId: "HeAllbdCpUZ31rClTJSNOmLX88zA6eERisRoACwx"
@@ -1751,6 +1764,10 @@ Regions:
         ironSourceAppKey:
             iOS: "c8fcb6c5"
             Android: "c8fb240d"
+        isVisibleOnMap : true
+        layoutPosition:
+            x: 0.4
+            y: 0.45
     WebStable_News:
         wgnwn: "https://wgs13.wgtest.net"
         clientId: "HeAllbdCpUZ31rClTJSNOmLX88zA6eERisRoACwx"
@@ -2029,6 +2046,10 @@ Regions:
             win_steam: "XnCcEGO9sJd1atcKOMtbH5Axl4uo54upADvY51RF"
             win_store: "LH26Z2J7HPM1n83DRQ3QUX7oeTyaJAEF2jfdHQmm"
             nsb: "sq3m3RqCqN3lRhzn68xwvUP3iuHYA7EIJlSKs8Fo"
+        isVisibleOnMap : true
+        layoutPosition:
+            x: 0.25
+            y: 0.55
     WebStable_SG:
         wgnwn: "https://sg.wgnwn.wgns.iv"
         news: "https://asia.wotblitz.com/%s/api/cms/rss/news/"
