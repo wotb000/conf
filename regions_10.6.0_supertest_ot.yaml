@@ -1663,10 +1663,9 @@ Regions:
         defaultLanguage: "en"
         adsRealmAlias: "web_stable"
         hosts:
-            WebStable4:
-                clusterID: 4
-                url: "wotblitzwebstable4.login.wargaming.net:20017"
-                login: "wotblitzwebstable4"
+            ATServerPerf:
+                url: "ed-sl-a53.fe.core.pw:20011"
+                login: "wotblitzatserverperf"
         prizesWithdrawal: "https://wdw.wotb.com.wots.iv/"
         tmsPublicApi: "https://tmsis-wotb-wgs13.wgtest.net"
         isGGMAllowed: true
