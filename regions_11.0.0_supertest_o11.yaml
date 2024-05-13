@@ -29,7 +29,6 @@ Common:
     switchToDlcGen2Probability: 1.0
 
 Regions:
-
     OpenTest:
         wgnwn: "https://st32.wargaming.net"
         clientId: "WwZZujL4TmwaouQcBLZYWXEVEXcYBzMIakBLUSAF"
@@ -139,7 +138,7 @@ Regions:
             client_id: "wotb"
             client_secret: "secret"
         battlePassOffersStorage: "https://ma67.gdl.netease.com/bp_offers/"
-     layoutPosition:
+        layoutPosition:
             x: 0.6
             y: 0.6
 ClanEmblems:
