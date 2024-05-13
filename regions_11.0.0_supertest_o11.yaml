@@ -138,6 +138,7 @@ Regions:
             client_id: "wotb"
             client_secret: "secret"
         battlePassOffersStorage: "https://ma67.gdl.netease.com/bp_offers/"
+        isVisibleOnMap : true
         layoutPosition:
             x: 0.35
             y: 0.38
