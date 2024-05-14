@@ -82,7 +82,6 @@ Regions:
         ironSourceAppKey:
             iOS: "c954cf05"
             Android: "c954957d"
-        battlePassOffersStorage: "http://dl-wotblitz-gc.wargaming.net/bp_offers/"
         isImageCacheEnabled: false
         isVisibleOnMap : true
         layoutPosition:
