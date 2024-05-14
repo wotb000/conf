@@ -73,15 +73,16 @@ Regions:
         isGGMAllowed: true
         ggmGameTitle: "wotbst30"
         ggmCredits:
-            tokenUrl: "https://auth.gamegrids.net/"
-            payUrl: "https://pay.gamegrids.net/"
-            frontierUrl: "https://api.gamegrids.net/"
+            tokenUrl: "https://auth-st30.gamegrids.net/"
+            payUrl: "https://pay-st30.gamegrids.net/"
+            frontierUrl: "https://api-st30.gamegrids.net/"
             client_id: "wotb"
             client_secret: "xeeG6Ba4we8e"
         adsRealmAlias: "review"
         ironSourceAppKey:
             iOS: "c954cf05"
             Android: "c954957d"
+        battlePassOffersStorage: "http://dl-wotblitz-gc.wargaming.net/bp_offers/"
         isImageCacheEnabled: false
         isVisibleOnMap : true
         layoutPosition:
