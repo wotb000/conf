@@ -73,9 +73,9 @@ Regions:
         isGGMAllowed: true
         ggmGameTitle: "wotbst30"
         ggmCredits:
-            tokenUrl: "https://auth-st30.gamegrids.net/"
-            payUrl: "https://pay-st30.gamegrids.net/"
-            frontierUrl: "https://api-st30.gamegrids.net/"
+            tokenUrl: "https://auth.gamegrids.net/"
+            payUrl: "https://pay.gamegrids.net/"
+            frontierUrl: "https://api.gamegrids.net/"
             client_id: "wotb"
             client_secret: "xeeG6Ba4we8e"
         adsRealmAlias: "review"
