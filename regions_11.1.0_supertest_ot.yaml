@@ -87,6 +87,7 @@ Regions:
         wgnwn: "https://cn1.plt.ms1shanghai.cn"
         news: "https://wbp-cn1.plt.ms1shanghai.cn/zh-cn/api/cms/rss/news/"
         popupNews: "https://wbp-cn1.plt.ms1shanghai.cn/zh-cn/api/cms/promo/"
+        tmsPublicApi: "https://tmsis-wotblitzcn1.plt.ms1shanghai.cn"
         contentPages: "https://wbp-cn1.plt.ms1shanghai.cn/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
         wotBlitzPortal: "https://wbp-cn1.plt.ms1shanghai.cn"
         realm: "cn"
@@ -105,7 +106,6 @@ Regions:
             CNGV:
                 url: "wotblitzcngv.login.wargaming.net:20017"
                 forceTcpConnection: true
-        tmsPublicApi: "https://tmsis-cngv.plt.ms1shanghai.cn"
         isGGMAllowed: true
         ggmGameTitle: "wotbcngv"
         ggmCredits:
@@ -113,7 +113,7 @@ Regions:
             payUrl: "https://pay.gamegridscn.com/"
             frontierUrl: "https://api.gamegridscn.com/"
             client_id: "wotb"
-            client_secret: "secret"
+            client_secret: "Y2E4MWMwMDYzZW"
             notificationCenterUrl: "https://nts.gamegridscn.com/"
         battlePassOffersStorage: "https://ma67.gdl.netease.com/bp_offers/"
         isVisibleOnMap : true
