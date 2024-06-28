@@ -1,29 +1,33 @@
 Common:
     smartDlcUrls:
-        - "https://ma67.gdl.netease.com/smart_dlc"
-    additionalLocalizationBaseUrl: "https://ma67.gsf.queniukx.cn/localizations_china"
+        - "http://dl-wotblitz-gc.wargaming.net/dlc"
     smartDlcDynamicContentConfigsUrls:
-        - "https://ma67.gdl.netease.com/smart_dlc"
+        - "http://dl-wotblitz-gc.wargaming.net/dlc"
+    additionalLocalizationBaseUrl: "https://stufficons.wgcdn.co/localizations"
     public: "true"
     latencyLimitMs: 200
-    chinaStoresConfigBaseUrl: "https://ma67.gdl.netease.com"
+    wotBlitzPortal: "https://wotblitz.com"
+    support_query: "blitz=1&locale=%s"
+    appleAppStore: "https://itunes.apple.com/app/id859204347"
+    appleMacAppStore: "macappstore://itunes.apple.com/app/id1068932208"
+    steamStore: "steam://nav/games/details/444200"
+    onestoreAppStoreUrl: "onestore://common/product/0000713208"
     netEaseGas3Url: "https://mgbsdk.matrix.netease.com/ma67/sdk/"
-    wotBlitzPortalQRCode: "https://ma67.gdl.netease.com/qr_code/wotblitz_%(realm).png"
-    defaultLanguage: "zh-cn"
-    isTournamentEventsEnabled: false
-    assets: "https://ma67.gdl.netease.com/assets/%s"
-    videoAssets: "https://ma67.gdl.netease.com/assets/Video/%(slug)"
-    battlePassOffersStorage: "https://ma67.gdl.netease.com/bp_offers/"
-    ageRatingURL: "https://ma67.gdl.netease.com/AgeRating.yaml"
-    icpNumberUrl: "https://beian.miit.gov.cn/"
-    debugCrashPercentage: 0
-    neteaseAccountRetrievalUrl: "https://qaaccount.netease.com:20001/api/get_url/get_url"
-    neteaseAnnouncementUrl: "https://ma67.gdl.netease.com/announcement.json"
-    isImageCacheEnabled: true
-    switchToDlcGen2Probability: 0.0
-    cdnUrl: "https://ma67.gsf.queniukx.cn"
-    netEaseMigrationUrl: "https://h5-change-channel.webapp.163.com/apply/view"
-    
+    wotBlitzPortalQRCode: "http://dl-wotblitz-gc.wargaming.net/qr_code/wotblitz_%(realm).png"
+    defaultLanguage: "en"
+    isTournamentEventsEnabled: true
+    blitzAssistant:
+        store:
+            default: "https://wotblitz.ru/assistant/"
+            iOS: "itms-apps://itunes.apple.com/app/id1047617794"
+            Android: "market://details?id=net.wargaming.wot.blitz.assistant"
+            "Windows Desktop UAP": "ms-windows-store://pdp/?ProductId=9nblggh5k75w"
+            "Windows Phone UAP": "ms-windows-store://pdp/?ProductId=9nblggh5k75w"
+    assets: "https://wotblitz-gc.gcdn.co/assets/%s"
+    videoAssets: "https://wotblitz-gc.gcdn.co/assets/Video/%(slug)"
+    battlePassOffersStorage: "http://dl-wotblitz-gc.wargaming.net/bp_offers/"
+    switchToDlcGen2Probability: 1.0
+
 Regions:
     REVIEW_NA:
         realm: "us"
@@ -84,28 +88,19 @@ Regions:
             x: 0.3
             y: 0.3
     CNGV:
-        wgnwn: "https://cn1.plt.ms1shanghai.cn"
-        news: "https://wbp-cn1.plt.ms1shanghai.cn/zh-cn/api/cms/rss/news/"
-        popupNews: "https://wbp-cn1.plt.ms1shanghai.cn/zh-cn/api/cms/promo/"
-        tmsPublicApi: "https://tmsis-wotblitzcn1.plt.ms1shanghai.cn"
-        contentPages: "https://wbp-cn1.plt.ms1shanghai.cn/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
-        wotBlitzPortal: "https://wbp-cn1.plt.ms1shanghai.cn"
         realm: "cn"
         flag: "cn"
-        clientId: "yFgIPcLBlKVLBs6K9mtK3yDnDsLJXqsDNidGESQL"
-        netEaseHostId: 2
-        analyticsConfig:
-            keyedArchive:
-                started:
-                    bool: false
-                events:
-                    keyedArchive:
-                        all:
-                            bool: false
+        news: "https://wbp-cngv.plt.ms1shanghai.cn/zh-cn/api/cms/rss/news/"
+        popupNews: "https://wbp-cngv.plt.ms1shanghai.cn/zh-cn/api/cms/promo/"
+        wotBlitzPortal: "https://wbp-cngv.wotblitz.asia"
+        wgnwn: "https://cngv.plt.ms1shanghai.cn"
+        clientId: "IkHLXmY97hL0fZwxKFQkkCpH5skz0vw8WvOxsnrr"
+        netEaseHostId: 3
         hosts:
             CNGV:
                 url: "wotblitzcngv.login.wargaming.net:20017"
                 forceTcpConnection: true
+        tmsPublicApi: "https://tmsis-cngv.plt.ms1shanghai.cn"
         isGGMAllowed: true
         ggmGameTitle: "wotbcngv"
         ggmCredits:
@@ -113,8 +108,7 @@ Regions:
             payUrl: "https://pay.gamegridscn.com/"
             frontierUrl: "https://api.gamegridscn.com/"
             client_id: "wotb"
-            client_secret: "Y2E4MWMwMDYzZW"
-            notificationCenterUrl: "https://nts.gamegridscn.com/"
+            client_secret: "secret"
         battlePassOffersStorage: "https://ma67.gdl.netease.com/bp_offers/"
         isVisibleOnMap : true
         layoutPosition:
