@@ -114,6 +114,35 @@ Regions:
         layoutPosition:
             x: 0.35
             y: 0.38
+    CN1:
+        wgnwn: "https://cn1.plt.ms1shanghai.cn"
+        news: "https://wbp-cn1.plt.ms1shanghai.cn/zh-cn/api/cms/rss/news/"
+        popupNews: "https://wbp-cn1.plt.ms1shanghai.cn/zh-cn/api/cms/promo/"
+        tmsPublicApi: "https://tmsis-wotblitzcn1.plt.ms1shanghai.cn"
+        contentPages: "https://wbp-cn1.plt.ms1shanghai.cn/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
+        wotBlitzPortal: "https://wbp-cn1.plt.ms1shanghai.cn"
+        realm: "cn"
+        flag: "cn"
+        clientId: "yFgIPcLBlKVLBs6K9mtK3yDnDsLJXqsDNidGESQL"
+        hosts:
+            CN1_C0:
+                clusterID: 0
+                url: "wotblitzcn0.login.wargaming.net:20016"
+            CN1_C1:
+                clusterID: 1
+                url: "wotblitzcn1.login.wargaming.net:20016"
+        isGGMAllowed: true
+        ggmCredits:
+            tokenUrl: "https://auth.gamegridscn.com/"
+            payUrl: "https://pay.gamegridscn.com/"
+            frontierUrl: "https://api.gamegridscn.com/"
+            client_id: "wotb"
+            client_secret: "Y2E4MWMwMDYzZW"
+            notificationCenterUrl: "https://nts.gamegridscn.com/"
+        isVisibleOnMap : true
+        layoutPosition:
+            x: 0.8
+            y: 0.38
 ClanEmblems:
     DefaultEmblem:
         Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10001.png"
