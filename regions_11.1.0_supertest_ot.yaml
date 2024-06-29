@@ -1,9 +1,9 @@
 Common:
     smartDlcUrls:
-        - "http://dl-wotblitz-gc.wargaming.net/dlc"
+        - "https://ma67.gdl.netease.com/smart_dlc"
     smartDlcDynamicContentConfigsUrls:
-        - "http://dl-wotblitz-gc.wargaming.net/dlc"
-    additionalLocalizationBaseUrl: "https://stufficons.wgcdn.co/localizations"
+        - "https://ma67.gdl.netease.com/smart_dlc"
+    additionalLocalizationBaseUrl: "https://ma67.gsf.queniukx.cn/localizations_china"
     public: "true"
     latencyLimitMs: 200
     wotBlitzPortal: "https://wotblitz.com"
