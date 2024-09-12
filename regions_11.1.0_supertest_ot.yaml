@@ -1,21 +1,60 @@
 Common:
     smartDlcUrls:
-        - "https://ma67.gdl.netease.com/smart_dlc"
+        - "http://smartdlc.wgtest.net"
+        - "http://smartdlc.wgtest.net"
+    smartDlcOverrides: "http://smartdlc.wgtest.net"
     smartDlcDynamicContentConfigsUrls:
-        - "https://ma67.gdl.netease.com/smart_dlc"
-    additionalLocalizationBaseUrl: "https://ma67.gsf.queniukx.cn/localizations_china"
-    public: "true"
+        - "http://smartdlc.wgtest.net"
+    cdnSelection:
+        useNewCdnSelectionAlgorithm: true
+        cdnMaxSpeed: 30.0 # ~33 ms for whole file
+        cdnWeightSpeed: 1.0
+        cdnMaxPrice: 10.0
+        cdnWeightPrice: -2.0
+        cdnPrices:
+            - 1.0
+            - 5.0
+    additionalLocalizationBaseUrl: "https://stufficons.wgcdn.co/localizations"
+    public: "false"
     latencyLimitMs: 200
     wotBlitzPortal: "https://wotblitz.com"
+    wotBlitzPortalQRCode: "http://dl-wotblitz-gc.wargaming.net/qr_code/wotblitz_%(realm).png"
+    communityUrls:
+        http:
+            vk: "https://vk.com/wotblitz"
+            facebook: "https://www.facebook.com/wotblitz"
+            youtube: "https://www.youtube.com/channel/UC1h424KQY-jGGQe3inlqfiA"
+            twitter: "https://twitter.com/WoTBlitz"
+            instagram: "https://instagram.com/wotblitz_ru/"
+            viber: "https://chats.viber.com/wot"
+            portal: "https://ru.wotblitz.com"
+            wargaming: "https://www.wargaming.net"
+            discord: "https://discord.gg/sR2X6Hp"
+        native:
+            youtube: "https://www.youtube.com/channel/UC1h424KQY-jGGQe3inlqfiA"
+            twitter: "twitter://user?id=1134245654"
+            viber: "viber://public?id=wot"
+        native_ios:
+            facebook: "fb://profile/572143336148627"
+        native_android:
+            facebook: "fb://facewebmodal/f?href=https://www.facebook.com/wotblitz"
+    tournamentEULA: "https://wotblitz.ru/%(locale)/mobile/blitz-1000/"
     support_query: "blitz=1&locale=%s"
     appleAppStore: "https://itunes.apple.com/app/id859204347"
     appleMacAppStore: "macappstore://itunes.apple.com/app/id1068932208"
     steamStore: "steam://nav/games/details/444200"
     onestoreAppStoreUrl: "onestore://common/product/0000713208"
-    netEaseGas3Url: "https://mgbsdk.matrix.netease.com/ma67/sdk/"
-    wotBlitzPortalQRCode: "http://dl-wotblitz-gc.wargaming.net/qr_code/wotblitz_%(realm).png"
-    defaultLanguage: "en"
-    isTournamentEventsEnabled: true
+    netEaseGas3Url: "https://mgbsdktest.matrix.netease.com/ma67/sdk/"
+    defaultLanguage: "ru"
+    alternativeAppLinks: # to tanks blitz
+        ios: "https://itunes.apple.com/app/tanks-blitz-pvp-mmo/id1634012602"
+        macos: "https://itunes.apple.com/app/tanks-blitz-pvp-mmo/id1634012602"
+        googlePlay: "https://play.google.com/store/apps/details?id=com.tanksblitz"
+        huawei: "https://appgallery.cloud.huawei.com/marketshare/app/C106970213"
+        samsung: "samsungapps://ProductDetail/com.tanksblitz"
+        amazon: ""
+        xiaomi: "mimarket://details?id=com.tanksblitz"
+        onestore: ""
     blitzAssistant:
         store:
             default: "https://wotblitz.ru/assistant/"
@@ -23,11 +62,25 @@ Common:
             Android: "market://details?id=net.wargaming.wot.blitz.assistant"
             "Windows Desktop UAP": "ms-windows-store://pdp/?ProductId=9nblggh5k75w"
             "Windows Phone UAP": "ms-windows-store://pdp/?ProductId=9nblggh5k75w"
+    prizesWithdrawal: ""
+    isTournamentEventsEnabled: true
     assets: "https://wotblitz-gc.gcdn.co/assets/%s"
     videoAssets: "https://wotblitz-gc.gcdn.co/assets/Video/%(slug)"
-    battlePassOffersStorage: "http://dl-wotblitz-gc.wargaming.net/bp_offers/"
+    battlePassOffersStorage: "http://smartdlc.wgtest.net/bp_offers/"
+    debugCrashPercentage: 0.5
     switchToDlcGen2Probability: 1.0
-
+    isImageCacheEnabled: true
+    migrationInfo:
+        teleportSlug:
+            uncertain: "/id/signout/trigger/?next=/personal/teleport/"
+        instructionLink:
+            android: "https://wotblitz.com/content/transfer-information-post-faq/"
+            ios: "https://wotblitz.com/content/transfer-information-post-faq-3/"
+            macos: "https://wotblitz.com/content/transfer-information-post-faq-3/"
+            macos_steam: "https://wotblitz.com/content/transfer-information-post-faq-2/"
+            win_store: "https://wotblitz.com/content/transfer-information-post-faq-2/"
+            win_steam: "https://wotblitz.com/content/transfer-information-post-faq-2/"
+            nsb: "https://wotblitz.com/content/transfer-information-post-faq-2/"
 Regions:
     REVIEW_NA:
         realm: "us"
