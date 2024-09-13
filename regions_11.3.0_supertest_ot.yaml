@@ -197,8 +197,6 @@ Regions:
             iOS: "c954cf05"
             Android: "c954957d"
         isImageCacheEnabled: false
-        msaAppIds:
-            us: "00000000-0000-0000-0000-000044170720"
         isVisibleOnMap: true
         layoutPosition:
             x: 0.45
