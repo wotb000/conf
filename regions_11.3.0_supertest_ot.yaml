@@ -146,7 +146,7 @@ Regions:
         layoutPosition:
             x: 0.3
             y: 0.3
-REVIEW_NA_test:
+    REVIEW_NA_test:
         realm: "us"
         flag: "us"
         wgnwn: "https://st30.wargaming.net"
