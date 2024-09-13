@@ -199,8 +199,8 @@ Regions:
         isImageCacheEnabled: false
         isVisibleOnMap: true
         layoutPosition:
-            x: 0.45
-            y: 0.14
+            x: 0.39
+            y: 0.39
     CNGV:
         realm: "cn"
         flag: "cn"
