@@ -1,11 +1,34 @@
 Common:
     smartDlcUrls:
-        - "http://cdn-ptl-static-2.tanksblitz.ru/tb-static/dlc"
+        - "http://smartdlc.lstdev.net"
+        - "http://smartdlc.lstdev.net"
+    smartDlcOverrides: "http://smartdlc.lstdev.net"
     smartDlcDynamicContentConfigsUrls:
-        - "http://cdn-ptl-static-2.tanksblitz.ru/tb-static/dlc"
+        - "http://smartdlc.lstdev.net"
+    cdnSelection:
+        useNewCdnSelectionAlgorithm: true
+        cdnMaxSpeed: 30.0 # ~33 ms for whole file
+        cdnWeightSpeed: 1.0
+        cdnMaxPrice: 10.0
+        cdnWeightPrice: -2.0
+        cdnPrices:
+            - 1.0
+            - 5.0
     additionalLocalizationBaseUrl: "https://cdn-stufficons.tanksblitz.ru/localizations"
-    public: "true"
+    public: "false"
     latencyLimitMs: 200
+    communityUrls:
+        http:
+            vk: "https://vk.com/club49033185"
+            youtube: "https://www.youtube.com/channel/UCrh8Fd_QKmzhv4lhrS-k4sQ"
+            discord: "https://discord.gg/GDKXhkk"
+            telegram: "https://t.me/tanks_blitz_official"
+            portal: "https://tanksblitz.ru"
+            company_site: "https://lesta.ru"
+        native:
+            youtube: "https://www.youtube.com/channel/UC1h424KQY-jGGQe3inlqfiA"
+            twitter: "twitter://user?id=1134245654"
+            viber: "viber://public?id=wot"
     support_query: "blitz=1&locale=%s"
     appleAppStore: "https://itunes.apple.com/app/id1634012602"
     appleMacAppStore: "macappstore://itunes.apple.com/app/id1634012602"
@@ -19,27 +42,18 @@ Common:
         amazon: "amzn://apps/android?p=net.wargaming.wot.blitz"
         xiaomi: "mimarket://details?id=net.wargaming.wot.blitz"
         onestore: "onestore://common/product/0000713208"
-    isTournamentEventsEnabled: true
+    prizesWithdrawal: ""
+    isTournamentEventsEnabled: false
     assets: "https://cdn-ptl-static-2.tanksblitz.ru/tb-static/assets/%s"
-    videoAssets: "https://cdn-ptl-static-2.tanksblitz.ru/tb-static/assets/Video/%(slug)"
-    battlePassOffersStorage: "http://cdn-ptl-static-2.tanksblitz.ru/tb-static/bp_offers/"
-    debugCrashPercentage: 0
+    videoAssets: "https://cdn-ptl-static-2.tanksblitz.ru/tb-static/assets/Video/ru/%(slug)"
+    battlePassOffersStorage: "http://smartdlc.lstdev.net/ruby/bp_offers/"
+    debugCrashPercentage: 0.5
     switchToDlcGen2Probability: 1.0
     isImageCacheEnabled: true
-    forbiddenVersions:
-        - "11.2.136_157856"
-        - "11.2.0.161_157861"
-        - "11.2.0.262_157850"
-        - "11.2.0.263_157851"
-        - "11.2.0.166_157852"
-        - "11.2.0.247_157853"
-        - "11.2.0.924_157847"
-        - "11.2.0.162_157863"
-        - "11.2.137_157857"
     migrationInfo:
         teleportSlug:
             uncertain: "/id/signout/trigger/?next=/personal/teleport/"
-
+            
 Regions:
     tbreview_apex:
         realm: "ru"
