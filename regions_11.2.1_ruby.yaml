@@ -55,53 +55,6 @@ Common:
             uncertain: "/id/signout/trigger/?next=/personal/teleport/"
             
 Regions:
-    tbreview_apex:
-        realm: "ru"
-        flag: "ru"
-        wgnwn: "https://apex.lesta.ru"
-        blitzShortName: "wotbreview"
-        clientIds:
-            ios: "fX5wf8DShq6KgIAfSAuPkAz0eZlGKhptPlLu7rzu"
-            android: "xyazQpnty0h1WSGCY7dmXGqpHLSEMxqHNbAUjhdZ"
-            macos: "hwJkTSrQk63sLq8dKBZznKbT4rVcOMjHYFpff4B5"
-            wgc: "e5YZsAxDtQNEoXLpIHwIH3HX0C6JQohnITK3L48c"
-            win7: "RcHQulNxELy7rNI2OLOY7uXd1FNWttABmeehgdN7"
-        news: "https://tanksblitz.ru/%s/api/cms/rss/news/?realm=rb"
-        contentPages: "https://tanksblitz.ru/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)&realm=rb"
-        popupNews: "https://tanksblitz.ru/%s/api/cms/promo/?realm=rb"
-        eula: "https://legal.tanksblitz.info/eula/"
-        privacyPolicy: "https://legal.tanksblitz.info/privacy-policy/"
-        hosts:
-            tbreview:
-                url: "92.223.41.217:20016"
-                forceTcpConnection: true
-        communityUrls:
-            http:
-                vk: "https://vk.com/club49033185"
-                youtube: "https://www.youtube.com/channel/UCrh8Fd_QKmzhv4lhrS-k4sQ"
-                discord: "https://discord.gg/GDKXhkk"
-                telegram: "https://t.me/tanks_blitz_official"
-                portal: "https://tanksblitz.ru"
-                company_site: "https://lesta.ru"
-        tmsPublicApi: 'https://tmsis-st33.wotblitz.com'
-        isTournamentEventsEnabled: true
-        adsRealmAlias: "stable"
-        ironSourceAppKey:
-            iOS: "161b65dfd"
-            Android: "161b69785"
-        ggmGameTitle: "ruby"
-        isGGMAllowed: true
-        ggmCredits:
-            tokenUrl: "https://auth.gg-tbreview.tanksblitz.info/"
-            payUrl: "https://pay.gg-tbreview.tanksblitz.info/"
-            frontierUrl: "https://api.gg-tbreview.tanksblitz.info/"
-            notificationCenterUrl: "https://nts.gg-tbreview.tanksblitz.info/"
-            client_id: "gameclnt"
-            client_secret: "Nzk5ZmI2NWE3Nzdh"
-        isVisibleOnMap : true
-        layoutPosition:
-            x: 0.64
-            y: 0.35
     tbreview:
         realm: "ru"
         flag: "ru"
