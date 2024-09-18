@@ -41,56 +41,26 @@ Common:
             uncertain: "/id/signout/trigger/?next=/personal/teleport/"
 
 Regions:
-    Russia:
-        wgnwn: "https://lesta.ru"
-        wotBlitzPremShop: "https://lesta.ru/shop/wotb/gold"
-        # new ids per platform
-        clientIds:
-            ios: "YlzUYCbpDNFUOSBmguZyfzg7j7EfS5utWV1NUo0H"
-            android: "w9CqzemI9tufN7NW4EMPBq3yFTatPypPmZS8eF6x"
-            macos: "pclh8ZmIt9LL2AfVwVN3hPNsK4unJHHRDuYgqUn7"
-            wgc: "VoHTrVUiwH4Og0vrMldKQcTCsh1iLEutC8ViK6ag"
-        news: "https://tanksblitz.ru/%s/api/cms/rss/news/"
-        contentPages: "https://tanksblitz.ru/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
-        popupNews: "https://tanksblitz.ru/%s/api/cms/promo/"
-        eula: "https://legal.tanksblitz.info/eula/"
-        privacyPolicy: "https://legal.tanksblitz.info/privacy-policy/"
-        clansEULA: "https://legal.tanksblitz.info/clan-rules-blitz/"
-        videoAssets: "https://cdn-ptl-static-2.tanksblitz.ru/tb-static/assets/Video/ru/%(slug)"
+    tbreview_apex:
         realm: "ru"
         flag: "ru"
-        wotBlitzPortal: "https://tanksblitz.ru"
-        adsRealmAlias: "ru"
-        defaultLanguage: "ru"
-        preferredHost: "best"
-        bestPingTolerance: 20
-        analyticsConfig:
-            keyedArchive:
-                started:
-                    bool: false
-                events:
-                    keyedArchive:
-                        all:
-                            bool: false
+        wgnwn: "https://apex.lesta.ru"
+        blitzShortName: "wotbreview"
+        clientIds:
+            ios: "fX5wf8DShq6KgIAfSAuPkAz0eZlGKhptPlLu7rzu"
+            android: "xyazQpnty0h1WSGCY7dmXGqpHLSEMxqHNbAUjhdZ"
+            macos: "hwJkTSrQk63sLq8dKBZznKbT4rVcOMjHYFpff4B5"
+            wgc: "e5YZsAxDtQNEoXLpIHwIH3HX0C6JQohnITK3L48c"
+            win7: "RcHQulNxELy7rNI2OLOY7uXd1FNWttABmeehgdN7"
+        news: "https://tanksblitz.ru/%s/api/cms/rss/news/?realm=rb"
+        contentPages: "https://tanksblitz.ru/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)&realm=rb"
+        popupNews: "https://tanksblitz.ru/%s/api/cms/promo/?realm=rb"
+        eula: "https://legal.tanksblitz.info/eula/"
+        privacyPolicy: "https://legal.tanksblitz.info/privacy-policy/"
         hosts:
-            RU_C0:
-                clusterID: 0
-                url: "login0.tanksblitz.ru:20016"
-            RU_C1:
-                clusterID: 1
-                url: "login1.tanksblitz.ru:20016"
-            RU_C2:
-                clusterID: 2
-                url: "login2.tanksblitz.ru:20016"
-            RU_C3:
-                clusterID: 3
-                url: "login3.tanksblitz.ru:20016"
-            RU_C4:
-                clusterID: 4
-                url: "login4.tanksblitz.ru:20016"
-            RU_C5:
-                clusterID: 5
-                url: "login5.tanksblitz.ru:20016"
+            tbreview:
+                url: "92.223.41.217:20016"
+                forceTcpConnection: true
         communityUrls:
             http:
                 vk: "https://vk.com/club49033185"
@@ -99,24 +69,73 @@ Regions:
                 telegram: "https://t.me/tanks_blitz_official"
                 portal: "https://tanksblitz.ru"
                 company_site: "https://lesta.ru"
-        tmsPublicApi: 'https://tmsis.tanksblitz.ru'
+        tmsPublicApi: 'https://tmsis-st33.wotblitz.com'
+        isTournamentEventsEnabled: true
+        adsRealmAlias: "stable"
+        ironSourceAppKey:
+            iOS: "161b65dfd"
+            Android: "161b69785"
         ggmGameTitle: "ruby"
         isGGMAllowed: true
         ggmCredits:
-            tokenUrl: "https://auth.gg.tanksblitz.info/"
-            payUrl: "https://pay.gg.tanksblitz.info/"
-            frontierUrl: "https://api.gg.tanksblitz.info/"
-            notificationCenterUrl: "https://nts.gg.tanksblitz.info/"
+            tokenUrl: "https://auth.gg-tbreview.tanksblitz.info/"
+            payUrl: "https://pay.gg-tbreview.tanksblitz.info/"
+            frontierUrl: "https://api.gg-tbreview.tanksblitz.info/"
+            notificationCenterUrl: "https://nts.gg-tbreview.tanksblitz.info/"
             client_id: "gameclnt"
             client_secret: "Nzk5ZmI2NWE3Nzdh"
-        ironSourceAppKey:
-            iOS: "15efdeca5"
-            Android: "15fc0c43d"
         isVisibleOnMap : true
         layoutPosition:
             x: 0.64
             y: 0.35
-
+    tbreview:
+        realm: "ru"
+        flag: "ru"
+        wgnwn: "https://lesta.ru"
+        blitzShortName: "wotbreview"
+        clientIds:
+            ios: "jr7AzM3td7zcPcZSKT2FqD9LMbQJt9M7ru6qZ3oz"
+            android: "GAsR4YHmw8mwxHtfHGSw8wwItSF9eCDERTnAlHu2"
+            macos: "KXJW482v0e3NAlGb2saf3QtvoUTvUaZ7iOSOzzu3"
+            wgc: "NSrtl0KLHMyAbS7ArEp9FUPzsWCFwxJ0MKc6cvDi"
+            win7: "bOEudeazGgCXUc9L28Xu9dmQzqYNnvNks8rCciS2"
+        news: "https://tanksblitz.ru/%s/api/cms/rss/news/?realm=rb"
+        contentPages: "https://tanksblitz.ru/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)&realm=rb"
+        popupNews: "https://tanksblitz.ru/%s/api/cms/promo/?realm=rb"
+        eula: "https://legal.tanksblitz.info/eula/"
+        privacyPolicy: "https://legal.tanksblitz.info/privacy-policy/"
+        hosts:
+            tbreview:
+                url: "92.223.41.217:20016"
+                forceTcpConnection: true
+        communityUrls:
+            http:
+                vk: "https://vk.com/club49033185"
+                youtube: "https://www.youtube.com/channel/UCrh8Fd_QKmzhv4lhrS-k4sQ"
+                discord: "https://discord.gg/GDKXhkk"
+                telegram: "https://t.me/tanks_blitz_official"
+                portal: "https://tanksblitz.ru"
+                company_site: "https://lesta.ru"
+        tmsPublicApi: 'https://tmsis-st33.wotblitz.com'
+        isTournamentEventsEnabled: true
+        adsRealmAlias: "stable"
+        ironSourceAppKey:
+            iOS: "161b65dfd"
+            Android: "161b69785"
+        ggmGameTitle: "ruby"
+        isGGMAllowed: true
+        ggmCredits:
+            tokenUrl: "https://auth.gg-tbreview.tanksblitz.info/"
+            payUrl: "https://pay.gg-tbreview.tanksblitz.info/"
+            frontierUrl: "https://api.gg-tbreview.tanksblitz.info/"
+            notificationCenterUrl: "https://nts.gg-tbreview.tanksblitz.info/"
+            client_id: "gameclnt"
+            client_secret: "Nzk5ZmI2NWE3Nzdh"
+        isVisibleOnMap : true
+        layoutPosition:
+            x: 0.2
+            y: 0.45
+        isImageCacheEnabled: false
 ClanEmblems:
     DefaultEmblem:
         Gfx: "https://cdn-ptl-static-2.tanksblitz.ru/tb-static/icons/clanEmblems1x/clan-icon-v2-10001.png"
