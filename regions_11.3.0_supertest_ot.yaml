@@ -132,10 +132,14 @@ Regions:
         adsRealmAlias: "trunk_qa"
         preferredHost: "login"
         hosts:
-            TrunkQA4:
-                clusterID: 4
-                url: "wotblitztrunkqa4.login.wargaming.net:20017"
-                login: "wotblitztrunkqa4"
+            TrunkQA2:
+                clusterID: 2
+                url: "wotblitztrunkqa2.login.wargaming.net:20017"
+                login: "wotblitztrunkqa2"
+            TrunkQA3:
+                clusterID: 3
+                url: "wotblitztrunkqa3.login.wargaming.net:20017"
+                login: "wotblitztrunkqa3"
         prizesWithdrawal: "https://payout.wotblitz.eu"
         tmsPublicApi: 'https://tmsis-wotb-wgt13.wgtest.net'
         isGGMAllowed: true
