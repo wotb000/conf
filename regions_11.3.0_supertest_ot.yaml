@@ -257,6 +257,74 @@ Regions:
         layoutPosition:
             x: 0.8
             y: 0.38
+    TrunkQA4:
+        csis: "https://csis.wott.iv/csis/wotblitz713"
+        news: "https://wbp-wgs13.edsc.wgcrowd.io/%s/api/cms/rss/news/"
+        contentPages: "https://wbp-wgs13.edsc.wgcrowd.io/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
+        popupNews: "https://wbp-wgs13.edsc.wgcrowd.io/%s/api/cms/promo/"
+        eula: "https://wbp-wgs13.edsc.wgcrowd.io/%s/content/blitz-client/docs/user_agreement/"
+        privacyPolicy: "https://wotblitz.ru/%s/content/blitz-client/docs/privacy_policy/"
+        clansEULA: "https://legal.na.wargaming.net/en/clan-rules-blitz/"
+        wotBlitzPremShop: "https://wgt13.wgtest.net/shop/"
+        # new ids per platform
+        clientIds:
+            ios: "jG5sBwzCd2GplPLfouAXxCzBURSiGuGWVhqj5uGH"
+            android: "nF40tKarKgpHBL6PfaNW6rcoFp4mOFNO6exOR4nQ"
+            macos: "5oEJXOJCkiYzXRy1cvLiyZE2kex6nq82MphVhO23"
+            macos_steam: "NZkLb0AhE9BQISqAne4r5M0TKQv7FrzKnItSoFOV"
+            win_steam: "Pq580LWHFukXJD2EHJ5f6sodBkOWy6AHvdY6ZyXG"
+            win_store: "U1py10LFxz2CDszP9kXEOWFvkflHDfKQGF4JyjYy"
+            wgc: "2Z9ZTM2R58ehLFrHjodzjQYSE8Fh0LVo6HVfyHxF"
+            nsb: "Z9PqiuH6Z3cZzAdLTFOd7Qg6FU1NAak1z0ecPu5R"
+        communityUrls:
+            http:
+                facebook: "https://www.facebook.com/wotblitz"
+                portal: "https://wbp-wgt13.edsc.wgcrowd.io"
+                vk: "https://vk.com/wotblitz"
+                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
+                twitter: "https://twitter.com/WoTBlitz"
+                instagram: "https://www.instagram.com/wotblitz/"
+                viber: "https://chats.viber.com/wot"
+                wargaming: "https://www.wargaming.net"
+                discord: "https://discord.gg/sR2X6Hp"
+            native:
+                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
+                twitter: "twitter://user?id=1134245654"
+                viber: "viber://public?id=wot"
+            native_ios:
+                facebook: "fb://profile/572143336148627"
+            native_android:
+                facebook: "fb://facewebmodal/f?href=https://www.facebook.com/wotblitz"
+        realm: "us"
+        flag: "us"
+        defaultLanguage: "en"
+        adsRealmAlias: "trunk_qa"
+        preferredHost: "login"
+        hosts:
+            TrunkQA4:
+                clusterID: 4
+                url: "wotblitztrunkqa4.login.wargaming.net:20017"
+                login: "wotblitztrunkqa4"
+        prizesWithdrawal: "https://payout.wotblitz.eu"
+        tmsPublicApi: 'https://tmsis-wotb-wgt13.wgtest.net'
+        isGGMAllowed: true
+        isTournamentEventsEnabled: true
+        ggmCredits:
+            tokenUrl: "https://auth-wgt.ggdev.io/"
+            payUrl: "https://pay-wgt.ggdev.io/"
+            frontierUrl: "https://api-wgt.ggdev.io/"
+            notificationCenterUrl: "https://nts-wgt.ggdev.io/"
+            client_id: "wotb"
+            client_secret: "secret"
+            console_url: "https://console-wgt.ggdev.io/admin/"
+        ironSourceAppKey:
+            iOS: "c927a33d"
+            Android: "c92769b5"
+        msaAppIds:
+            us: "00000000-0000-0000-0000-000040183317"
+        layoutPosition:
+            x: 0.9
+            y: 0.48
 ClanEmblems:
     DefaultEmblem:
         Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10001.png"
