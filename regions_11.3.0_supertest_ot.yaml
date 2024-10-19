@@ -88,6 +88,175 @@ Common:
         suggestResolveUrl: "https://wargaming.net/id/signin/"
         conflictFaqUrl: "https://wotblitz.com/%s/content/blitz-client/docs/privacy_policy/"
 Regions:
+    REVIEW_NA:
+        realm: "us"
+        flag: "us"
+        defaultLanguage: "en"
+        wgnwn: "https://st30.wargaming.net"
+        clientId: "xQIHnSChfYHun4KN5H6rDIHNJ3RMvZqyHCoLlBVP"
+        clientIds:
+            android: "tbo3ztJopMb8Onxuf92dwC72aY0vLZNiwi9bum5s"
+            ios: "6NGDADRGTUmNkGsJnsspihG2qWmGdovOS9fuEnDR"
+            macos: "SZANhMjPXfjoGhbA2eRdGowfAbnHs2wKab6ebb7s"
+            macos_steam: "ciz03Kj8IpF8EH3HW6QO9Vqsc8DMjkZYmZiCtW1I"
+            win_store: "IKIDghwPwhklVPNnXFQKng2PavKUTiP063NnxEtx"
+            win_steam: "hiQMLpCECy7XqB0CwDb8N3yFvF6VLB9FvxDpNgtV"
+            nsb: "t8S0oUIQIqwzU4Asoyi94eNGdJZu0LJdXEenMrhb"
+        news: "https://ptl-st30.wargaming.net/%s/api/cms/rss/news/"
+        contentPages: "https://ptl-st30.wargaming.net/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
+        popupNews: "https://ptl-st30.wargaming.net/%s/api/cms/promo/"
+        eula: "https://ptl-st30.wargaming.net/%s/content/blitz-client/docs/user_agreement/"
+        privacyPolicy: "https://wotblitz.com/%s/content/blitz-client/docs/privacy_policy/"
+        tournamentEULA: "https://ptl-st30.wargaming.net/%(locale)/mobile/blitz-1000/"
+        hosts:
+            R1:
+                url: "login-st34.wotblitz.com:20017"
+                forceTcpConnection: true
+        communityUrls:
+            http:
+                facebook: "https://www.facebook.com/wotblitz"
+                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
+                twitter: "https://twitter.com/WoTBlitz"
+                portal: "https://ptl-st30.wargaming.net"
+                wargaming: "https://www.wargaming.net"
+                discord: "https://discord.gg/sR2X6Hp"
+            native:
+                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
+                twitter: "twitter://user?id=1134245654"
+            native_ios:
+                facebook: "fb://profile/572143336148627"
+            native_android:
+                facebook: "fb://facewebmodal/f?href=https://www.facebook.com/wotblitz"
+        prizesWithdrawal: "https://wdw-st30.wotblitz.com"
+        tmsPublicApi: 'https://tmsis-st30.wotblitz.com'
+        isGGMAllowed: true
+        ggmGameTitle: "wotbst30"
+        ggmCredits:
+            tokenUrl: "https://auth.gamegrids.net/"
+            payUrl: "https://pay.gamegrids.net/"
+            frontierUrl: "https://api.gamegrids.net/"
+            client_id: "wotb"
+            client_secret: "xeeG6Ba4we8e"
+        adsRealmAlias: "review"
+        ironSourceAppKey:
+            iOS: "c954cf05"
+            Android: "c954957d"
+        isImageCacheEnabled: false
+        isVisibleOnMap : true
+        layoutPosition:
+            x: 0.3
+            y: 0.3
+    REVIEW_NA_test:
+        realm: "us"
+        flag: "us"
+        wgnwn: "https://st30.wargaming.net"
+        clientId: "xQIHnSChfYHun4KN5H6rDIHNJ3RMvZqyHCoLlBVP"
+        # new ids per platform
+        clientIds:
+            android: "tbo3ztJopMb8Onxuf92dwC72aY0vLZNiwi9bum5s"
+            ios: "6NGDADRGTUmNkGsJnsspihG2qWmGdovOS9fuEnDR"
+            macos: "SZANhMjPXfjoGhbA2eRdGowfAbnHs2wKab6ebb7s"
+            macos_steam: "ciz03Kj8IpF8EH3HW6QO9Vqsc8DMjkZYmZiCtW1I"
+            win_store: "IKIDghwPwhklVPNnXFQKng2PavKUTiP063NnxEtx"
+            win_steam: "hiQMLpCECy7XqB0CwDb8N3yFvF6VLB9FvxDpNgtV"
+            nsb: "t8S0oUIQIqwzU4Asoyi94eNGdJZu0LJdXEenMrhb"
+        news: "https://ptl-st30.wargaming.net/%s/api/cms/rss/news/"
+        contentPages: "https://ptl-st30.wargaming.net/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
+        popupNews: "https://ptl-st30.wargaming.net/%s/api/cms/promo/"
+        eula: "https://ptl-st30.wargaming.net/%s/content/blitz-client/docs/user_agreement/"
+        privacyPolicy: "https://wotblitz.com/%s/content/blitz-client/docs/privacy_policy/"
+        adsRealmAlias: "review"
+        hosts:
+            R1:
+                url: "login-st34.wotblitz.com:20011"
+                forceTcpConnection: false
+        communityUrls:
+            http:
+                facebook: "https://www.facebook.com/wotblitz"
+                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
+                twitter: "https://twitter.com/WoTBlitz"
+                portal: "https://ptl-st30.wargaming.net"
+                wargaming: "https://www.wargaming.net"
+            native:
+                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
+                twitter: "twitter://user?id=1134245654"
+            native_ios:
+                facebook: "fb://profile/572143336148627"
+            native_android:
+                facebook: "fb://facewebmodal/f?href=https://www.facebook.com/wotblitz"
+        tmsPublicApi: 'https://tmsis-st30.wotblitz.com'
+        isGGMAllowed: true
+        ggmGameTitle: "wotbst30"
+        ggmCredits:
+            tokenUrl: "https://auth.gamegrids.net/"
+            payUrl: "https://pay.gamegrids.net/"
+            frontierUrl: "https://api.gamegrids.net/"
+            client_id: "wotb"
+            client_secret: "xeeG6Ba4we8e"
+        ironSourceAppKey:
+            iOS: "c954cf05"
+            Android: "c954957d"
+        isImageCacheEnabled: false
+        isVisibleOnMap: true
+        layoutPosition:
+            x: 0.39
+            y: 0.39
+    CNGV:
+        realm: "cn"
+        flag: "cn"
+        news: "https://wbp-cngv.plt.ms1shanghai.cn/zh-cn/api/cms/rss/news/"
+        popupNews: "https://wbp-cngv.plt.ms1shanghai.cn/zh-cn/api/cms/promo/"
+        wotBlitzPortal: "https://wbp-cngv.wotblitz.asia"
+        wgnwn: "https://cngv.plt.ms1shanghai.cn"
+        clientId: "IkHLXmY97hL0fZwxKFQkkCpH5skz0vw8WvOxsnrr"
+        netEaseHostId: 3
+        hosts:
+            CNGV:
+                url: "wotblitzcngv.login.wargaming.net:20017"
+                forceTcpConnection: true
+        tmsPublicApi: "https://tmsis-cngv.plt.ms1shanghai.cn"
+        isGGMAllowed: true
+        ggmGameTitle: "wotbcngv"
+        ggmCredits:
+            tokenUrl: "https://auth.gamegridscn.com/"
+            payUrl: "https://pay.gamegridscn.com/"
+            frontierUrl: "https://api.gamegridscn.com/"
+            client_id: "wotb"
+            client_secret: "secret"
+        battlePassOffersStorage: "https://ma67.gdl.netease.com/bp_offers/"
+        isVisibleOnMap : true
+        layoutPosition:
+            x: 0.35
+            y: 0.38
+    CN1:
+        wgnwn: "https://cn1.plt.ms1shanghai.cn"
+        news: "https://wbp-cn1.plt.ms1shanghai.cn/zh-cn/api/cms/rss/news/"
+        popupNews: "https://wbp-cn1.plt.ms1shanghai.cn/zh-cn/api/cms/promo/"
+        tmsPublicApi: "https://tmsis-wotblitzcn1.plt.ms1shanghai.cn"
+        contentPages: "https://wbp-cn1.plt.ms1shanghai.cn/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
+        wotBlitzPortal: "https://wbp-cn1.plt.ms1shanghai.cn"
+        realm: "cn"
+        flag: "cn"
+        clientId: "yFgIPcLBlKVLBs6K9mtK3yDnDsLJXqsDNidGESQL"
+        hosts:
+            CN1_C0:
+                clusterID: 0
+                url: "wotblitzcn0.login.wargaming.net:20016"
+            CN1_C1:
+                clusterID: 1
+                url: "wotblitzcn1.login.wargaming.net:20016"
+        isGGMAllowed: true
+        ggmCredits:
+            tokenUrl: "https://auth.gamegridscn.com/"
+            payUrl: "https://pay.gamegridscn.com/"
+            frontierUrl: "https://api.gamegridscn.com/"
+            client_id: "wotb"
+            client_secret: "Y2E4MWMwMDYzZW"
+            notificationCenterUrl: "https://nts.gamegridscn.com/"
+        isVisibleOnMap : true
+        layoutPosition:
+            x: 0.8
+            y: 0.38
     TrunkQA4:
         csis: "https://csis.wott.iv/csis/wotblitz713"
         news: "https://wbp-wgs13.edsc.wgcrowd.io/%s/api/cms/rss/news/"
@@ -132,14 +301,10 @@ Regions:
         adsRealmAlias: "trunk_qa"
         preferredHost: "login"
         hosts:
-            TrunkQA2:
-                clusterID: 2
-                url: "wotblitztrunkqa2.login.wargaming.net:20017"
-                login: "wotblitztrunkqa2"
-            TrunkQA3:
-                clusterID: 3
-                url: "wotblitztrunkqa3.login.wargaming.net:20017"
-                login: "wotblitztrunkqa3"
+            TrunkQA4:
+                clusterID: 4
+                url: "wotblitztrunkqa4.login.wargaming.net:20017"
+                login: "wotblitztrunkqa4"
         prizesWithdrawal: "https://payout.wotblitz.eu"
         tmsPublicApi: 'https://tmsis-wotb-wgt13.wgtest.net'
         isGGMAllowed: true
@@ -158,8 +323,8 @@ Regions:
         msaAppIds:
             us: "00000000-0000-0000-0000-000040183317"
         layoutPosition:
-            x: 0.39
-            y: 0.39
+            x: 0.9
+            y: 0.48
 ClanEmblems:
     DefaultEmblem:
         Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10001.png"
